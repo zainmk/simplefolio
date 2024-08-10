@@ -35,9 +35,9 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Zain Khan.</span>
+          Hi, my name is <span class="text-color-main">Zain Khan</span>.
           <br />
-          I'm a Software Engineer, actively seeking a new role...
+          I'm a Software Engineer, currently seeking a new role...
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -48,10 +48,13 @@
     </section>
     <!-- /END Hero Section -->
 
+
+
+
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">about me</h2>
+        <h2 class="section-title load-hidden">ABOUT ME</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
@@ -68,8 +71,13 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                I am a dual degree graduate with a BESc. in Mechatronics Systems Engineering and a BSc. in Computer Science from Western University.
-                As an experienced programmer who has led development of cloud based applications, I am currently seeking for my next opportunity to apply my skills and further my knowledge of software engineering.
+                As a dual degree graduate in Mechatronics Systems Engineering (BESc.) and Computer Science (BSc.) from Western University,
+                I have always enjoyed learning about how the technologies we use on a daily basis work. 
+                I consider my aptitude and quick learning ability a skill I always like to exercise and make full use of.
+              </p>
+              <p class="about-wrapper__info-text">
+                I have years of experience with fullstack development, primarily with ReactJS/TS based frameworks as well as Python and Java for backend tasks and scripting.
+                I am currently learning more about ML algorithms and neural network architectures to truly understand AI.
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -78,7 +86,7 @@
                   class="cta-btn cta-btn--resume"
                   href="assets/resume.pdf"
                 >
-                  resume
+                  RESUME
                 </a>
               </span>
             </div>
@@ -88,22 +96,76 @@
     </section>
     <!-- /END About Section -->
 
+
+
     <!-- **** Projects Section **** -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
-
+          
           <!-- Notice: each .row is a project -->
+          
+          
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title"> t h u m b s </h3>
+                <div>
+                  <p class="mb-4">
+                    'Thumbs' is a web application that allows users to keep track of the movie and games ('stories') they've experienced and attribute to them, something memorable.
+                    This app is still in development and I am excited to see in which direction we go in!
+                  </p>
+                  <p class="mb-4">
+                    🛠 | ReactJS, Firebase Realtime Database (JSON)
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/RafhyKhan/thumbs"
+                >
+                  code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                  style="max-width: 400px"
+                >
+                <a  href="https://thumbs.vercel.app/" target="_blank">
+                   <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/thumbs.png"
+                  />
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title"> localNeighborhoodCNN </h3>
                 <div>
                   <p class="mb-4">
-                    This project was an instructional based discovery project, to code a convolutional neural network and implement the Convulation, Max Pool and Simply Connected layers. 
-                    The driving force of the network, and essentially all neural networks, is the calculus behind backpropagation. Implementing all the layers with the data set saved locally,
-                    allows buidling and training the network with only the files here. Trained off the MNIST data set, to classify hand drawn digits from 0-9.
+                    A project to code a convolutional neural network and implement the Convulation, Max Pool and Simply Connected layers including the raw calculations of backpropagation.
+                    The goal of the project is to fully understand how exactly ML can be used for image recognition.
+                    Trained off the MNIST data set, to classify hand drawn digits from 0-9.
+                  </p>
+                  <p class="mb-4">
+                    🛠 | JavaSDK
                   </p>
                 </div>
                 <a
@@ -112,7 +174,7 @@
                   class="cta-btn text-color-main"
                   href="https://github.com/zainmk/localneighborhoodCNN"
                 >
-                  source code
+                  code
                 </a>
               </div>
             </div>
@@ -134,19 +196,22 @@
               </div>
             </div>
           </div>
+
+
+          
+
+
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title"> pyTicTacToe </h3>
                 <div>
                   <p class="mb-4">
-                    A game of TicTacToe you can play with someone else or against the computer The python code uses tkinter GUI to help show the gameplay. The computer has several levels of difficulty...
-                    </br></br>
-                    Easy; selects the next available empty space
-                    </br>
-                    Medium; selects a randomly available empty space
-                    </br>
-                    Hard; selects the 'best' move based off the Minimax algorithm. Computer is <b>unbeatable</b>.
+                    A game of TicTacToe you can play with someone else or against the computer utilizing the minimax algorithm. 
+                    The python code uses tkinter GUI to help show the gameplay.
+                  </p>
+                  <p class="mb-4">
+                    🛠 | Python, tkinter
                   </p>
                 </div>
                 <a
@@ -155,7 +220,7 @@
                   class="cta-btn text-color-main"
                   href="https://github.com/zainmk/pyTicTacToe"
                 >
-                  source code
+                  code
                 </a>
               </div>
             </div>
@@ -178,11 +243,15 @@
               </div>
             </div>
           </div>
+
           <!-- /END Project -->
         </div>
       </div>
     </section>
     <!-- /END Projects Section -->
+
+
+
 
     <!-- **** Contact Section **** -->
     <section id="contact">
@@ -201,6 +270,9 @@
       </div>
     </section>
     <!-- /END Contact Section -->
+
+
+
 
     <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
